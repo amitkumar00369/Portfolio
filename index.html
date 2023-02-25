@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/278e20f46b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="A.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                <!-- <i class="fa-light fa-xmark"></i> -->
+                <!-- <i class="fa-sharp fa-solid fa-rectangle-xmark"></i> -->
+                <!-- <i class="fa-regular fa-xmark"></i> -->
+            </ul>
+            <!-- <i class="fa-regular fa-bars"></i> -->
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Amit Kumar</span><br> from India</h1>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!-- about sec code -->
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="abnew.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm amit kumar from muzaffarpur.My branch is information technology and my college is MIT Muzaffarpur. I am a web devloper and also working data science field.I have an exprience in both field more than one years</p>
+                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit perferendis reiciendis modi debitis consectetur. Quibusdam libero error a voluptates iusto quidem tenetur qui? Maiores officiis cum aspernatur ab beatae!</p> -->
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Exprience')">Exprience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"onclick="opentab('Achievement')">Internship</p>
+                     </div>
+                     <!-- for different class to add one more with tab-contsnts or say concateinate -->
+                    <div class="tab-contents active-tab" id="Skills">
+                        <li><span>UI/UX</span><br>Desiging Web/Data Analytics</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>IoS/Android Development</li>
+                        <li><span>Data science</span><br>Data Visualization</li>
+                        <li><span>Cyber Security</span><br>Provide Security in Website</li>
+                    </div>
+                    <div class="tab-contents" id="Exprience">
+                        <li><span>Data Science</span><br>From 2022</li>
+                        <li><span>Web development/Designing</span><br>From 2021</li>
+                        <li><span>IoS/Android Development</span><br>IoS/Android Development</li>
+                        <li><span>Data Visualization</span><br>From 2022</li>
+                        <li><span>Cyber Security <br>Beginner</li>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <li><span>Batchelor Of Technology</span><br>2023</li>
+                        <li><span>Diploma</span><br>2020</li>
+                        <li><span>InterMediat of Science</span><br>2016</li>
+                        <li><span>10th Standard</span><br>2014</li>
+                        
+                    </div>
+                    <div class="tab-contents" id="Achievement">
+                        <li><span>Web Development</span><br>Easy Webes</li>
+                        <li><span>Android App Development</span><br>Tech Martin Private Limited</li>
+                        <li><span>Image Classification using different machine learning algo.</span><br>TCS iON</li>
+                        <!-- <li><span>Data science</span><br>Data Visualization</li>
+                        <li><span>Cyber Security</span><br>Privide Security in Website</li> -->
+                    </div>
+
+                </div>
+               
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Services section -->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-titles">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, numquam?</p>
+                    <a href="https://youtu.be/J6cDQEejNLA">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, numquam?</p>
+                    <a href="https://youtu.be/mXjZQX3UzOs">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data science</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, numquam?</p>
+                    <a href="https://www.youtube.com/live/xiEC5oFsq2s?feature=share">learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-regular fa-user-robot-xmarks"></i>
+                    <h2>machine learning</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, numquam?</p>
+                    <a href="https://youtu.be/GwIo3gDZCVQ">learn more</a>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- This is portfolio -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Social media may provide individuals with a platform </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Our innovative API process development can help advance your program</p>
+                        <a href="#"><i class="fa-brands fa-app-store"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping</h3>
+                        <p>Our innovative API process development can help advance your program</p>
+                        <a href="#"><i class="fa-brands fa-app-store"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+
+        </div>
+    </div>
+<!-- now this is contact section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Conatct Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>amitraazec@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8969172954</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/amit-kumar-059984220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/amit.kumar.1000369"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/AmitKum21911698"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/amit11419821/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/amitkumar00369"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/+918969172954"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <!-- <a href="https://wa.me/+917209484194"><i class="fa-brands fa-square-whatsapp"></i></a> -->
+                </div>
+                <a href="New Resume.pdf" download class="btn1">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name....." required>
+                    <input type="number" name="Mob No." placeholder="Your Mobile number......." required>
+                    <input type="email" name="Email" placeholder="Your Email....." required>
+                    <textarea name="Message" rows="06" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="copyright">
+        <p>Copyright ©2023</p> -->
+    </div>
+   
+    </div>
+</div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript operation start -->
+
+
+
+    <script>
+       var tablinks=document.getElementsByClassName("tab-links");
+       var tabcontents=document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          
+    
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // add request link in this code
+
+        event.currentTarget.classList.add("active-link");
+        // event.currentTarget.classList.show("active-tab");
+        document.getElementById(tabname).classList.add("active-tab")
+       }
+
+
+
+
+    </script>
+
+
+
+<!-- .................javascript for close or open menu using onclick function -->
+
+    <script>
+        var sidmenu=document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidmenu.style.right='0';
+
+        }
+        function closemenu(){
+            sidmenu.style.right='-200px'
+        }
+        
+    </script>
+
+
+<!-- ............for google sheet -->
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby2VVsW-9EbGmNvInAMjGVbZh48Mg2Z8HX7zCLjZc_3xcRE4-WvcexMdA__wIBUg6O8RA/exec '
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
